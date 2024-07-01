@@ -18,7 +18,7 @@ migrate = Migrate(app, db)
 db.init_app(app)
 
 api = Api(app)
-
+ iqra
 
 @app.route("/")
 def index():
